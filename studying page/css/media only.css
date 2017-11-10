@@ -1,0 +1,100 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  
+	nav ul{
+		display: none;
+		position: absolute;
+		width:100%;
+		background-color: #28B80D;
+	}
+	nav ul li{
+		display: block;
+	}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.topline .button{
+		display: none;
+		background-color: #43484c;
+		vertical-align: middle;
+		margin-top: 15px;
+		padding: 14px;
+		position: absolute;
+		width: 100%;
+	}
+	.section_gradient .blue,
+	.section_gradient .lamp,
+	.section_gradient .rose,
+	.section_gradient .pocket{
+		width:100%;
+		display: block;
+		text-align: center;
+	}
+	.section_gradient {
+		background:#e2f8ff;
+		height: 400px;
+	}
+	.section_gradient h2 {
+		text-align: center;
+	}
+	.section_gradient p {
+		text-align: center;
+	}
+	#f5f9eb
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.top_links{
+		display: block !important;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.main_mnu ul{
+			display: block !important;
+	}
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
